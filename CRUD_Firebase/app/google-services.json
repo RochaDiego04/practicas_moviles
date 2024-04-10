@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "557394112820",
+    "project_id": "crud-firebase-kotlin-713cb",
+    "storage_bucket": "crud-firebase-kotlin-713cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557394112820:android:5b0b6aee8190b0aeee7561",
+        "android_client_info": {
+          "package_name": "com.example.crud_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfh81C32m5FvxTcXlOy8C_xoA74Yjame0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

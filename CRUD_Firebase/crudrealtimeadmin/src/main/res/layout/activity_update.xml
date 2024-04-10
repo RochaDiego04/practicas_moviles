@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/referenceVehicleNumber"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:hint="Enter vehicle number"
+            android:padding="16dp"
+            android:textColor="@color/green" />
+
+        <EditText
+            android:id="@+id/updateOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:hint="Enter owner name"
+            android:padding="16dp"
+            android:textColor="@color/green" />
+
+        <EditText
+            android:id="@+id/updateVehicleBrand"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:hint="Enter vehicle brand"
+            android:padding="16dp"
+            android:textColor="@color/green" />
+
+        <EditText
+            android:id="@+id/updateVehicleRTO"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:hint="Enter vehicle RTO"
+            android:padding="16dp"
+            android:textColor="@color/green" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="Update"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
